@@ -41,7 +41,7 @@ const MovieDetails = () => {
   const {
     poster_path,
     title,
-    original_title,
+    
     release_date,
     genres,
     vote_average,
