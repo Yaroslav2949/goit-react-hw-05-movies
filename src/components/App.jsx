@@ -6,6 +6,10 @@ import MovieDetails from '../pages/MovieDetailes/MovieDetailes';
 import Cast from 'Components/Cast/Cast';
 import Reviews from 'Components/Reviews/Reviews';
 import Layout from 'Components/Layout/Layout';
+
+
+
+
 export const App = () => {
   return (
     <div>
