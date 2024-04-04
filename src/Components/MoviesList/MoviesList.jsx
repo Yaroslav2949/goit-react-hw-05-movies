@@ -6,7 +6,7 @@ const MoviesList = ({ films }) => {
   console.log(location);
      return (
        <UlStyle>
-         {films.map(({ id, title, overview, poster_path }) => (
+         {films.map(({ id, title,  poster_path }) => (
            <Link to={`/movies/${id}`} key={id} state={{ from: location }} >
              <LiStyle key={id}>
                <img
