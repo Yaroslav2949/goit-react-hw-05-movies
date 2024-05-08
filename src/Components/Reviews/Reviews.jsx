@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Loader } from 'Components/Loader/Loader';
+import { Loader } from '../Loader/Loader';
 import { fetchMovieReviews, onFetchError } from 'services/api';
 import { useParams } from 'react-router-dom';
 import { UlReviewsStyled, LiReviewsStyled, } from './Reviews.styled';
